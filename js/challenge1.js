@@ -24,9 +24,11 @@ let heightJohn = 1.95;
 //Calculo BMI
 let BIMMark = massMark / (heightMarks **2);
 let BIMJohn = massJohn / (heightJohn **2);
-let markHigherBMI = BIMMark > BIMJohn;
 
-console.log ("Datos de prueba");
-console.log ("El IBM de Marks es : " , BIMMark );
-console.log ("El IBM de John es : " , BIMJohn );
-console.log ("¿Mark tiene el IBM más alto?", markHigherBMI);
+
+console.log("Mark's BMI:", BMIMark);
+console.log("John's BMI:", BMIJohn);
+
+let markHigherBMI = BMIMark > BMIJohn;
+console.log("Es Mark más alto que John?", markHigherBMI);
+
